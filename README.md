@@ -1,11 +1,3 @@
-Absolutely! Here's the updated README file with the process description incorporated:
-
----
-
-<div align="center">
-  <img src="https://yourimagehost.com/yourimage.png" alt="Image Prompt Generator Logo" width="200">
-</div>
-
 # Image Prompt Generator
 
 Image Prompt Generator is a project aimed at extracting text from images, modifying the text using prompting techniques, and converting the modified text back into images. This project utilizes various modules and libraries to achieve its functionality.
