@@ -1,3 +1,11 @@
+Absolutely! Here's the updated README file with the process description incorporated:
+
+---
+
+<div align="center">
+  <img src="https://yourimagehost.com/yourimage.png" alt="Image Prompt Generator Logo" width="200">
+</div>
+
 # Image Prompt Generator
 
 Image Prompt Generator is a project aimed at extracting text from images, modifying the text using prompting techniques, and converting the modified text back into images. This project utilizes various modules and libraries to achieve its functionality.
@@ -27,6 +35,20 @@ Matplotlib is a plotting library for Python that provides a wide variety of visu
 ![StableDiffusionPipeline](https://img.shields.io/badge/StableDiffusionPipeline-0.1.0-yellow)
 
 StableDiffusionPipeline is a library that provides tools for stable image generation using diffusion models. It helps in generating high-quality images from textual prompts.
+
+## 🔄 Process
+
+### Step 1: Image Caption Generator
+
+The first step involves using the Gradio model for image caption generation. Users are required to upload an image through the interface and press the "Caption" button. The model then generates a descriptive text regarding the content of the uploaded image.
+
+### Step 2: Prompt Generation
+
+In the second step, the generated image caption is used to create prompts. Certain random keywords related to the product are incorporated into the text to enhance its specificity. This step results in the final modified text ready for further processing.
+
+### Step 3: Image Plotting
+
+The final step utilizes the StableDiffusionPipeline module to plot images based on the prompts generated in the previous step. Since the project is executed in a Colab environment, it provides the convenience of viewing all generated images in a single plot. Each row in the plot displays five images for the specific product, totaling 25 images in one plot. This visualization aids in quickly assessing the variations and outcomes of the prompt generation process.
 
 ## 🚀 Usage
 
