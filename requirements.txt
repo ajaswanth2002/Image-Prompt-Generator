@@ -1,0 +1,4 @@
+!pip install gradio
+!pip install torch
+!pip install matplotlib
+!pip install diffusers transformers gradio accelerate
